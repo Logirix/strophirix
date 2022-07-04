@@ -41,7 +41,6 @@
   "module": "dist/strophe.esm.js",
   "unpkg": "dist/strophe.umd.min.js",
   "scripts": {
-    "build": "npx rollup -c",
     "lint": "eslint src/*.js test/*.js",
     "clean": "make clean",
     "doc": "make doc",
@@ -54,9 +53,6 @@
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.12.1",
-    "@rollup/plugin-babel": "^5.1.0",
-    "@rollup/plugin-commonjs": "^22.0.0",
-    "@rollup/plugin-node-resolve": "^13.2.1",
     "almond": "~0.3.0",
     "babel-eslint": "^10.1.0",
     "es6-promise": "^4.2.8",
@@ -68,11 +64,6 @@
     "minimist": "^1.2.5",
     "npm": "^6.14.7",
     "qunit": "2.18.2",
-    "rollup": "^2.32.1",
-    "rollup-plugin-node-globals": "^1.4.0",
-    "rollup-plugin-terser": "^7.0.2",
-    "rollup-plugin-uglify": "^6.0.4",
-    "run-headless-chromium": "^0.1.1",
     "sinon": "1.17.7",
     "terser": "^5.10.0",
     "yarpm": "^1.1.1"
